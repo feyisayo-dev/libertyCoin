@@ -1,0 +1,12 @@
+# ./Cargo.toml
+[workspace]
+members = [
+    "core",
+    "node",
+    "net",
+    "script",
+    "storage",
+    "wallet",
+    "cli"
+, "types"]
+resolver = "3"
